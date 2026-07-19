@@ -1,10 +1,10 @@
 # tasks
-1. create a working workspace& env
+1. ~~create a working workspace& env~~
 2. preprocessing : 
-*   Implement ⁠ SquarePad ⁠ to pad images to squares without distorting anatomical proportions.
-*   Apply spatial augmentations (⁠ RandomRotation ⁠ up to 30°, vertical/horizontal flips) to ensure spatial invariance.
-*   Resize to 224x224 and normalize using ImageNet parameters.
-*   Create PyTorch ⁠ Dataset ⁠ and ⁠ DataLoader ⁠ for a small subset (e.g., ⁠ XR_WRIST ⁠ or ⁠ XR_ELBOW ⁠) to keep execution under 1-2 hours on Colab.
+*   ~~Implement ⁠ SquarePad ⁠ to pad images to squares without distorting anatomical proportions.~~
+*   ~~Apply spatial augmentations (⁠ RandomRotation ⁠ up to 30°, vertical/horizontal flips) to ensure spatial invariance.~~
+*   ~~Resize to 224x224 and normalize using ImageNet parameters.~~
+*   ~~Create PyTorch ⁠ Dataset ⁠ and ⁠ DataLoader ⁠ for a small subset~~ -> we are working specifically on XR_FOREARM
 3. experiment 1 -> change the last layer (classification one) and train on a new domain subset (located in MURA folder)
 4. experiment 2 -> decide which layers to freeze (little research)
 5. experiment 3 -> training on a traing subset with random weighting
